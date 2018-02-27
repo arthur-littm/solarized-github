@@ -2,6 +2,7 @@
 :root {
   --darkest-bg-color: #022B35;
   --dark-bg-color: #0A3641;
+  --light-dark-bg-color: #0C495A;
   --lightgray-text: #93A1A1;
   --gray-text: #707E81;
   --cyan: #32A198;
@@ -48,6 +49,56 @@ a:hover {
 
 .body .link-gray-dark {
   color: var(--gray-text) !important;
+}
+
+/* BUTTONS */
+
+.btn {
+  background-color: var(--darkest-bg-color) !important;
+  background: var(--darkest-bg-color) !important;
+}
+
+.btn span {
+  color: var(--lightgray-text) !important;
+}
+
+.select-menu-button::after {
+  border: 4px solid var(--magenta) !important;
+  border-right-color: transparent !important;
+  border-bottom-color: transparent !important;
+  border-left-color: transparent !important;
+}
+
+/* DROPDOWNS */
+
+.select-menu-modal {
+  background: transparent !important;
+}
+
+.select-menu-modal svg {
+  color: var(--cyan) !important;
+}
+
+.select-menu-header {
+  background: var(--light-dark-bg-color) !important;
+}
+
+.select-menu-item {
+  background-color: var(--light-dark-bg-color) !important;
+}
+
+.select-menu-item span, .select-menu-header span {
+  color: var(--lightgray-text) !important;
+}
+
+.select-menu-header, .select-menu-item {
+  border-bottom: 1px solid var(--dark-bg-color) !important;
+}
+
+/* HIDDEN STUFF */
+
+.github-jobs-promotion {
+  display: none;
 }
 
 
