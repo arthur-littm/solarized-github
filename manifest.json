@@ -1,0 +1,14 @@
+{
+  "manifest_version": 1,
+
+  "name": "Terminal Theme for Github",
+  "version": "0.1.0",
+  "description": "Terminal style theme for Github's webapp.",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    // "js": ["content.js"],
+    "matches": ["https://github.com/*"]
+  }]
+
+}
