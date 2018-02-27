@@ -1,0 +1,38 @@
+/* COLOR VARIABLES */
+:root {
+  --darkest-bg-color: #022B35;
+  --dark-bg-color: #0A3641;
+  --lightgray-text: #93A1A1;
+  --gray-text: #839496;
+  --cyan: #32A198;
+  --blue: #2D8CCF;
+  --red: #DA3435;
+  --magenta: #D13A82;
+  --green: #85981C;
+  --yellow: #B4881D;
+}
+
+/* BACKGROUND */
+body {
+  background-color: var(--dark-bg-color) !important;
+}
+
+header {
+  background-color: var(--darkest-bg-color) !important
+}
+
+/* TEXT */
+
+a {
+  color: var(--blue);
+}
+
+a:hover {
+  color: var(--cyan);
+}
+
+.text-gray-light relative-time {
+  color: var(--lightgray-text) !important;
+}
+
+
