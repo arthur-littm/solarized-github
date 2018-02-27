@@ -3,7 +3,7 @@
   --darkest-bg-color: #022B35;
   --dark-bg-color: #0A3641;
   --lightgray-text: #93A1A1;
-  --gray-text: #839496;
+  --gray-text: #707E81;
   --cyan: #32A198;
   --blue: #2D8CCF;
   --red: #DA3435;
@@ -31,8 +31,23 @@ a:hover {
   color: var(--cyan);
 }
 
-.text-gray-light relative-time {
+.text-gray-light relative-time  {
   color: var(--lightgray-text) !important;
+}
+
+.branch-name {
+  color: var(--red) !important;
+  border-left: 2px solid var(--magenta);
+  border-right: 2px solid var(--magenta);
+  background-color: transparent !important;
+}
+
+.body {
+  color: var(--cyan);
+}
+
+.body .link-gray-dark {
+  color: var(--gray-text) !important;
 }
 
 
